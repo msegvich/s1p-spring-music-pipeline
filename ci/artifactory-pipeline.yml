@@ -38,6 +38,7 @@ resources:
   source:
     endpoint: http://ci.google.pcf.cloud:8081/artifactory
     repository: "/gradle-release-local/spring-music"
+    regex: "spring-music-(?<version>.*).jar"
     username: admin
     password: S1pP$ssW0rd!
 
