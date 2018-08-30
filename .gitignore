@@ -1,0 +1,5 @@
+pipeline-params.yml
+/build
+*.iml
+.gradle
+.idea
