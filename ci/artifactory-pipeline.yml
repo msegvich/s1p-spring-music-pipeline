@@ -86,7 +86,7 @@ jobs:
   - put: deploy-test-app
     params:
       manifest: git-repo/manifest-test.yml
-      current_app_name: spring-music-test
+      current_app_name: mds-spring-music-test
       path: release-candidate/spring-music*.jar
   - task: verify
     file: git-repo/ci/tasks/verify-test.yml
